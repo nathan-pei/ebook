@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>本地视频测试</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .video-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    video {
+      width: 400px;
+      max-width: 100%;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>本地视频播放示例</h1>
+
+  <div class="video-container">
+    <!-- 第一个视频 -->
+    <div>
+      <h3>视频 1</h3>
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签。
+      </video>
+    </div>
+
+    <!-- 第二个视频 -->
+    <div>
+      <h3>视频 2</h3>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签。
+      </video>
+    </div>
+  </div>
+
+</body>
+</html>
